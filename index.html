@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <input type="number" placeholder="number one" name="" id="one">
+    <input type="number" placeholder="number one" name="" id="two">
+    <button onclick="add()">+</button>
+    <button onclick="subtract()">-</button>
+    <button onclick="divide()">/</button>
+    <button onclick="multiply()">*</button>
+    <script>
+      function divide(){
+        alert(one.value/ two.value)
+      }
+      function add(){
+        alert(parseInt(one.value) + parseInt(two.value));
+      }
+      function subtract(){
+        alert(one.value- two.value)
+      }
+      function multiply(){
+        alert(one.value* two.value)
+      }
+    </script>
+</body>
+</html>
